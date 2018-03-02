@@ -1,0 +1,35 @@
+{
+  // Place your settings in this file to overwrite the default settings
+  "editor.fontSize": 18,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.validate.enable": false,
+  "standard.enable": false,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 0,
+  "vsicons.projectDetection.autoReload": true,
+  "typescript.check.npmIsInstalled": false,
+  "workbench.colorTheme": "Monokai",
+  "vsicons.dontShowNewVersionMessage": true,
+  "vim.disableAnnoyingNeovimMessage": true,
+  "team.showWelcomeMessage": false,
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "editor.formatOnSave": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "vscode-icons"
+}
